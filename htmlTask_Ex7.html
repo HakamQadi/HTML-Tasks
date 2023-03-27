@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ex.7</title>
+
+    <style>
+      .card {
+        border: 2px solid #000000;
+        border-radius: 0px;
+        padding: 10px;
+        position: relative;
+      }
+
+      .card-title {
+        position: absolute;
+        top: -25px;
+        left: 10px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personal details</h1>
+    <form action="">
+      <label for="Fname">First name:</label>
+      <input type="text" id="Fname" name="Fname" />
+
+      <br />
+
+      <label for="Lname">Last name:</label>
+      <input type="text" id="Lname" name="Lname" />
+
+      <br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <br />
+      <label for="">Gender:</label>
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+    </form>
+    <h1>Magazines</h1>
+    <form action="">
+      <input
+        type="checkbox"
+        name="magazines"
+        value="Stavanger Aftenblad"
+      /><strong>Stavanger Aftenblad</strong>
+
+      <br />
+
+      <input type="checkbox" name="magazines" value="Teknisk Ukeblad" /><strong
+        >Teknisk Ukeblad</strong
+      >
+
+      <br />
+
+      <input type="checkbox" name="magazines" value="Se og Hor" /><strong
+        >Se og Hor</strong
+      >
+      <br />
+
+      <input type="checkbox" name="magazines" value="Familien" /><strong
+        >Familien</strong
+      >
+    </form>
+    <form action="">
+      <h1>Subscription</h1>
+      <label for="calender"><strong>Period:</strong></label>
+      <select name="cars" id="cars">
+        <option value="1 Month">1 Month</option>
+        <option value="2 Months">2 Months</option>
+        <option value="3 Months">3 Months</option>
+        <option value="4 Months">4 Months</option>
+        <option value="5 Months">5 Months</option>
+        <option value="6 Months">6 Months</option>
+      </select>
+
+      <br />
+
+      <input type="submit" value="Subscribe" />
+    </form>
+
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+    <div class="card">
+      <p class="card-title">Personal details</p>
+      <form action="">
+        <label for="Fname">First name:</label>
+        <input type="text" id="Fname" name="Fname" />
+
+        <br />
+
+        <label for="Lname">Last name:</label>
+        <input type="text" id="Lname" name="Lname" />
+
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+
+        <br />
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female
+      </form>
+    </div>
+
+    <br />
+
+    <div class="card">
+      <p class="card-title">Magazines</p>
+      <form action="">
+        <input
+          type="checkbox"
+          name="magazines"
+          value="Stavanger Aftenblad"
+        />Stavanger Aftenblad
+
+        <br />
+
+        <input
+          type="checkbox"
+          name="magazines"
+          value="Teknisk Ukeblad"
+        />Teknisk Ukeblad
+
+        <br />
+
+        <input type="checkbox" name="magazines" value="Se og Hor" />
+        Se og Hor
+
+        <br />
+
+        <input type="checkbox" name="magazines" value="Familien" />Familien
+      </form>
+    </div>
+
+    <br>
+
+    <div class="card">
+        <p class="card-title">Subscription</p>
+        <label for="calender"><strong>Period:</strong></label>
+      <select name="cars" id="cars">
+        <option value="1 Month">1 Month</option>
+        <option value="2 Months">2 Months</option>
+        <option value="3 Months">3 Months</option>
+        <option value="4 Months">4 Months</option>
+        <option value="5 Months">5 Months</option>
+        <option value="6 Months">6 Months</option>
+      </select>
+      </div>
+
+      <input type="submit" value="Subscribe" />
+  </body>
+</html>
