@@ -1,0 +1,196 @@
+/* Ex.1 */
+#one {
+    color: #4f91af;
+}
+
+#two {
+    color: red;
+}
+
+#three {
+    color: blue;
+    font-size: 30px;
+}
+
+#four {
+    color: pink;
+}
+
+#five {
+    color: orange;
+    font-size: 2em;
+}
+
+#six {
+    color: yellow;
+    font-size: 3rem;
+}
+
+/* Ex.2 */
+
+#cssText {
+    color: red;
+}
+
+#t1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#t2 {
+    text-align: center;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+#t3 {
+    color: pink;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+#t4 {
+    text-decoration: line-through;
+    color: red;
+    text-align: right;
+
+}
+
+#t5 {
+    text-decoration: underline;
+    color: yellow;
+}
+
+/* Ex.3 */
+
+#External {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/* Ex.4 */
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.background {
+    background-color: #d4f0f1;
+}
+
+#p {
+    background-color: aqua;
+    color: green;
+    font-weight: bold;
+}
+
+/* Ex.5 */
+
+.oddnumbers {
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+h1.oddnumbers {
+    font-size: 24px;
+}
+
+#onlyid {
+    color: blue;
+    font-size: 36px;
+}
+
+#evennumbers {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Ex.6 */
+
+.one {
+    width: 80px;
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+}
+
+.three {
+    height: 80px;
+}
+
+/* ex.7 */
+#div2{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#diiv {
+    background-color: aqua;
+    padding-top: 0.1px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cardText{
+    margin-left:10px ;
+}
+.BtnText{
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+}
+
+#card {
+    background-color: aqua;
+    
+}
+
+#content {
+    background-color: aqua;
+}
+
+#btn {
+    background-color: aqua;
+    text-align: center;
+}
+
+/* Ex.8 */
+
+#background {
+    background-color: brown;
+    width: 700px;
+    padding: 20px;
+}
+
+#image {
+    border-radius: 50%;
+    float: left;
+}
+
+#name {
+    margin-left: 400px;
+    font-weight: bolder;
+
+}
+
+#age {
+    margin-left: 400px;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-end;
+}
