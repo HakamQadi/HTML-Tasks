@@ -1,0 +1,24 @@
+
+.MyImage {
+    display: flex;
+    align-items: center;
+
+}
+
+aside {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-left: 1050px;
+    margin-right:  100px;
+}
+header{
+    background-color: #f2f2f2;
+
+}
+
+.certification{
+    background-color: #f2f2f2;
+}
+aside p{
+    margin-left: 10px;
+}
